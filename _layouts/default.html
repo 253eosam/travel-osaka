@@ -15,9 +15,9 @@
     </header>
 
     <nav class="tab-navigation">
-      <a href="{{ '/' | relative_url }}" class="tab-link {% if page.url == '/' %}active{% endif %}">🏨 숙박</a>
-      <a href="{{ '/transportation' | relative_url }}" class="tab-link {% if page.url == '/transportation' or page.url == '/transportation/' %}active{% endif %}">🚇 교통</a>
-      <a href="{{ '/restaurants' | relative_url }}" class="tab-link {% if page.url == '/restaurants' or page.url == '/restaurants/' %}active{% endif %}">🍜 음식</a>
+      <a href="{{ '/' | relative_url }}" class="tab-link {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">🏨 숙박</a>
+      <a href="{{ '/transportation' | relative_url }}" class="tab-link {% if page.url contains 'transportation' %}active{% endif %}">🚇 교통</a>
+      <a href="{{ '/restaurants' | relative_url }}" class="tab-link {% if page.url contains 'restaurants' %}active{% endif %}">🍜 음식</a>
     </nav>
 
     <main id="content" class="main-content" role="main">
