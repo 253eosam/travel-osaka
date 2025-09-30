@@ -7,9 +7,6 @@ show_downloads: false
 lang: ko
 author: sungjun-lee
 
-# 소셜 링크 (선택사항)
-github_username: 253eosam
-
 # 마크다운 설정
 markdown: kramdown
 kramdown:
