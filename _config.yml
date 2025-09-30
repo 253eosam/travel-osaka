@@ -1,0 +1,24 @@
+title: 오사카 여행 가이드
+description: 오사카 여행 정보 - 숙박, 교통, 음식점
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# 사이트 메타데이터
+lang: ko
+author: hiconsy
+
+# 소셜 링크 (선택사항)
+github_username: hiconsy
+
+# 마크다운 설정
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# 제외할 파일
+exclude:
+  - CLAUDE.md
+  - .claude/
+  - .git/
+  - .github/
