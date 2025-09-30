@@ -2,8 +2,6 @@ title: 오사카 여행 가이드
 description: 오사카 여행 정보 - 숙박, 교통, 음식점
 theme: jekyll-theme-cayman
 show_downloads: false
-baseurl: "/travel-osaka"
-url: "https://253eosam.github.io"
 
 # 사이트 메타데이터
 lang: ko
